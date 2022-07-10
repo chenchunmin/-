@@ -1,0 +1,74 @@
+.depot {
+  width: 694rpx;
+  height: 458rpx;
+  opacity: 0.85;
+  text-align: center;
+  box-shadow: 0rpx 4rpx 20rpx 0rpx rgba(0, 0, 0, 0.4);
+  border: 2rpx solid rgba(255, 255, 255, 100);
+  margin: 60rpx auto;
+}
+
+.copy {
+  width: 50rpx;
+  height: 50rpx;
+  background-color: #ffa726;
+  border-radius: 50%;
+  position: relative;
+  top: 25rpx;
+  left: 60rpx;
+}
+
+.copy image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 5rpx;
+}
+
+.ress {
+  position: relative;
+  right: 130rpx;
+  top: -22rpx;
+  width: 160rpx;
+  height: 46rpx;
+  font-size: 40rpx;
+  font-weight: bold;
+}
+
+.text {
+  width: 550rpx;
+  height: 350rpx;
+  margin: auto;
+  color: #000;
+  font-size: 33rpx;
+  text-align: left;
+}
+
+.text view {
+  margin: 20rpx 0;
+}
+
+.copyress {
+  margin-top: 40rpx;
+  width: 660rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius: 38rpx;
+  background-color: #05c160;
+  color: #ffffff;
+  font-size: 35rpx;
+}
+
+.step {
+  width: 696rpx;
+  height: 870rpx;
+  color: rgba(16, 16, 16, 100);
+  font-size: 36rpx;
+  text-align: left;
+  margin: 40rpx auto;
+}
+
+.step view {
+  font-size: 40rpx;
+  font-weight: bolder;
+  margin: 20rpx 0;
+}

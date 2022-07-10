@@ -1,0 +1,21 @@
+.border {
+  margin-top: 20rpx;
+  border-bottom: 1px solid #000;
+}
+
+.switch {
+  width: 660rpx;
+  margin: 50rpx auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-button {
+  top: 60rpx;
+  width: 352rpx;
+  height: 72rpx;
+  border-radius: 8rpx;
+  background-color: #e7691d;
+  color: rgba(255, 255, 255, 100);
+  font-size: 28rpx;
+}

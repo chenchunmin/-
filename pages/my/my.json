@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "van-image": "@vant/weapp/image/index",
+    "van-icon": "@vant/weapp/icon/index"
+  },
+  "navigationBarBackgroundColor": "#256f40",
+  "navigationBarTitleText": "领 头 羊"
+}

@@ -1,0 +1,23 @@
+<view class="depot">
+  <view class="copy">
+    <image src="../../assets/icon/地址.png"></image>
+  </view>
+  <text class="ress">仓库地址</text>
+  <view class="text" selectable="true">
+    <view class="person">收件人：<text>{{address.person}}</text></view>
+    <view class="over">收货地址：<text>{{address.over}}</text></view>
+    <view class="phone">联系电话：<text>{{address.phone}}</text></view>
+    <view class="code">邮政编码：<text>{{address.code}}</text></view>
+  </view>
+</view>
+<button class="copyress" catchtap="copyaddress">一键复制仓库地址信息</button>
+<view class="step">
+  <view>第一步将包裹寄到河马转运仓\n</view>
+  <text decode>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;复制以上收件人信息并添加到淘宝等网购平台，以河马转运为收货人ID号作为包裹识别归属的主要途径，请务必作为收件人信息的一部分完整保留；\n</text>
+  <view>第二步报备包裹国内快递单号\n</view>
+  <text decode>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;快递寄出后将国内快递单号添加至河马转运，因国内部分快递公司会隐藏ID号，请自主添加单号备，以免被识别为无名包事造成不必要的损失；\n</text>
+  <view> 第三步提交打包\n</view>
+  <text decode>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;包裹入库验货后，选择你要寄送的包事提交打包并选择线路渠道，打包时间通常为当天提交次日18：00前完成打包；\n</text>
+  <view>第四步支付运费\n</view>
+  <text style="padding-bottom: 80rpx;" decode>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;打包完成后确认重量与运费明细，完成支付后当日出库提交转运</text>
+</view>

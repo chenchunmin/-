@@ -1,0 +1,82 @@
+<view class="box">
+  <view class="drrbox">
+    <view style="display: flex;justify-content: space-between;">
+      <view class="box1">
+        <view class="yuan  lan">
+          <image class="fei xiao1" src="/assets/coupon/fangzi.png"></image>
+        </view>
+      </view>
+      <view class="box2">
+        <view style="display: flex;justify-content:flex-start;">
+          <view style="padding:20rpx 50rpx 20rpx 20rpx;">YY CHEN</view>
+          <view style="padding:20rpx 50rpx 20rpx 10rpx;">18688888888</view>
+        </view>
+        <view class="dizhiibox">MEGASYSTEMS INC 799 E DRAGRAM SUITE 5ATUCSON, AZ 85705 USA</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="d">
+  <view class="detail">
+    <view class="item">
+      <view class="itemList">订单号</view>
+      <view class="">20220509140712345678</view>
+    </view>
+    <view class="item">
+      <view class="itemList">转运线路</view>
+      <view class="">中国-美国</view>
+    </view>
+    <view class="item">
+      <view class="itemList">预选渠道</view>
+      <view class="">普通货物</view>
+    </view>
+    <view class="item">
+      <view class="itemList">货物属性</view>
+      <view class="">普通货物</view>
+    </view>
+    <view class="item">
+      <view class="itemList">转运费</view>
+      <view class="">¥ 138.00</view>
+    </view>
+    <view class="item">
+      <view class="itemList">附加费</view>
+      <view class="">¥ 38.00</view>
+    </view>
+    <view class="item">
+      <view class="itemList">丢失险</view>
+      <view class="">¥ 0.00</view>
+    </view>
+    <view class="item">
+      <view class="itemList">关税险</view>
+      <view class="">¥28.00</view>
+    </view>
+
+    <view class="item">
+      <view class="itemList">
+        <u-icon color="#ec0606" size="23" name="coupon"></u-icon>优惠券
+      </view>
+      <view class="rg">-¥28.00<u-icon size="18" name="arrow-right"></u-icon>
+      </view>
+    </view>
+
+    <u-line></u-line>
+    <view class="dddd">
+      <view class="bom">
+        <view class=""> 已优惠 <text class="pc">¥8</text> </view>
+        <view class="" style="margin-left: 15rpx;"> 小计 <text class="dc">¥28.00</text> </view>
+      </view>
+    </view>
+
+  </view>
+</view>
+
+<view class="bott">
+  <view class="bot">
+    <text class="z">订单总金额：￥138.00</text>
+    <view class="bty">
+      <van-checkbox value="{{ checked }}" bind:change="onChange">阅读并同意《电子运单契约条款》</van-checkbox>
+    </view>
+  </view>
+  <view class="gre">立即支付</view>
+</view>

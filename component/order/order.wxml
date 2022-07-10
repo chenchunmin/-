@@ -1,0 +1,25 @@
+<view class="orderData">
+  <text class="text">订单号：{{orderData.nm}}</text>
+  <view class="copy">复制</view>
+  <text class="off">{{orderData.off}}</text>
+  <view class="airplane">
+    <image src="/assets/icon/飞机.png"></image>
+  </view>
+  <text class="finish">{{orderData.finish}}</text>
+  <text class="state" wx:if="{{orderData.state == 0}}">完 成</text>
+  <text style="left: 212rpx;" class="state" wx:if="{{orderData.state == 1}}">已支付</text>
+  <text style="left: 175rpx;" class="state" wx:if="{{orderData.state == 2}}">待入仓</text>
+  <text style="left: 135rpx;" class="state" wx:if="{{orderData.state == 3}}">已出仓</text>
+  <text style="left: 208rpx;" class="state" wx:if="{{orderData.state == 4}}">待支付</text>
+  <text style="left: 208rpx;" class="state" wx:if="{{orderData.state == 5}}">待填写</text>
+
+  <!-- 显示隐藏按钮 -->
+  <view class="buy">
+    <button class="details">详情</button>
+    <button class="pay" wx:if="{{orderData.state == 4}}">去支付</button>
+    <button class="pay" wx:if="{{orderData.state == 3}}">物流详情</button>
+    <button class="pay" wx:if="{{orderData.state == 2}}">确定打包</button>
+  </view>
+
+
+</view>

@@ -1,0 +1,66 @@
+.bottom-button {
+  top: 60rpx;
+  width: 352rpx;
+  height: 72rpx;
+  border-radius: 8rpx;
+  background-color: #e7691d;
+  color: rgba(255, 255, 255, 100);
+  font-size: 28rpx;
+}
+
+.info {
+  margin-top: 30rpx;
+  width: 750rpx;
+  height: 164rpx;
+}
+
+.van-checkbox {
+  position: relative;
+  top: 55rpx;
+  left: 35rpx;
+}
+
+.text {
+  position: relative;
+  top: -20rpx;
+  left: 110rpx;
+  width: 340rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.address {
+  position: relative;
+  left: 104rpx;
+  top: -20rpx;
+  width: 566rpx;
+  height: 90rpx;
+  color: rgba(153, 153, 153, 100);
+  font-size: 24rpx;
+}
+
+.img {
+  position: relative;
+  left: 310px;
+  top: -25px;
+  width: 100rpx;
+  height: 40rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.new {
+  position: relative;
+  top: 500rpx;
+  width: 700rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+  background-color: rgba(231, 105, 29, 100);
+  color: rgba(255, 255, 255, 100);
+  font-size: 28rpx;
+}

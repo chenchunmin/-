@@ -1,0 +1,11 @@
+<van-tabs active="{{ active }}" sticky :offset-top="40" bind:change="onChange" title-active-color="#445727" color="#445727">
+
+  <block wx:for="{{title}}" wx:key="index">
+    <van-tab title="{{item.text}}">
+      <block wx:for="{{arr}}" wx:key="id">
+        <orderitem orderData="{{item}}"></orderitem>
+      </block>
+    </van-tab>
+  </block>
+
+</van-tabs>

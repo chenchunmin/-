@@ -1,0 +1,150 @@
+<van-notice-bar text="转运账单已生成，请及时查看账单信息并支付" />
+<view class="content">
+
+  <view class="up box">
+
+    <view class="depot info">
+      <view class="img">
+        <image src="/assets/icon/地址.png"></image>
+      </view>
+      <view class="text">
+        <text>新希望仓库</text>
+        <text>18664673990</text>
+        <text class="copy">复制</text>
+      </view>
+      <text class="address">深圳市龙华区龙华街道工业路壹城环智中心C座2607室</text>
+
+
+
+
+    </view>
+
+    <view class="myaddress info">
+
+      <view class="myimg">
+        <image src="/assets/icon/fdc.png"></image>
+      </view>
+
+      <view class="mytext">
+        <text>YY ZZZ</text>
+        <text>18664673990</text>
+      </view>
+
+      <view class="mysaddress">MEGASYSTEMS INC 799 E DRAGRAM SUITE 5ATUCSON, AZ 85705 USA</view>
+
+    </view>
+
+  </view>
+
+  <view class="bale">
+    <view class="bill">
+      <view class="tet">运费：¥ <text>138.00</text></view>
+      <view class="tet">附加费：¥ <text>0.00</text></view>
+      <view class="tet">称重重量：<text>5.6</text> kg</view>
+      <view class="tet">分拣备注：<text class="red">已拆封分拣，统一归类</text></view>
+      <view class="tet">打包备注：<text class="red">东西太多，已统一打包加固</text></view>
+      <view>称重图片：</view>
+      <view class="tup">
+        <image src="/assets/coupon/tp.png"></image>
+        <image src="/assets/coupon/tp.png"></image>
+        <image src="/assets/coupon/tp.png"></image>
+      </view>
+    </view>
+
+    <view>
+      <view class="wrap">账单：</view>
+
+      <view class="enwrap">
+        <image src="/assets/coupon/tp.png"></image>
+        <view class="suggest">
+          <view class="bag">包裹一</view>
+          <view>属性：普通货物</view>
+          <view>长宽高：12*5*5 CM</view>
+          <view>计费重量：1.25KG</view>
+          <view>计费方式：实际重量</view>
+          <view>运费：￥125</view>
+        </view>
+      </view>
+
+      <view class="enwrap">
+        <image src="/assets/coupon/tp.png"></image>
+        <view class="suggest">
+          <view class="bag">包裹一</view>
+          <view>属性：普通货物</view>
+          <view>长宽高：12*5*5 CM</view>
+          <view>计费重量：1.25KG</view>
+          <view>计费方式：实际重量</view>
+          <view>运费：￥125</view>
+        </view>
+      </view>
+
+      <view class="enwrap">
+        <image src="/assets/coupon/tp.png"></image>
+        <view class="suggest">
+          <view class="bag">包裹一</view>
+          <view>属性：普通货物</view>
+          <view>长宽高：12*5*5 CM</view>
+          <view>计费重量：1.25KG</view>
+          <view>计费方式：实际重量</view>
+          <view>运费：￥125</view>
+        </view>
+      </view>
+      
+    </view>
+  </view>
+
+  <view class="center box">
+
+    <view class="number">
+      <image class="xicon" src="/assets/icon/xing.png"></image>
+      <view class="size">快递个数</view>
+      <input class="min" type="text" placeholder="请输入（输入后弹出快递单号位置）" />
+    </view>
+
+    <input class="max" type="text" placeholder="备注信息，例如：去掉包装盒等" />
+
+    <view class="add">
+      <view class="flex">
+        1.<input bind:blur="popup" class="inp" type="text" placeholder="请输入快递单号" />
+        <image class="del" src="/assets/icon/删除.png"></image>
+      </view>
+      <view class="flex">
+        2.<input bind:blur="popup" class="inp" type="text" placeholder="请输入快递单号" />
+        <image class="del" src="/assets/icon/删除.png"></image>
+      </view>
+      <view class="flex">
+        3.<input bind:blur="popup" class="inp" type="text" placeholder="请输入快递单号" />
+        <image class="del" src="/assets/icon/删除.png"></image>
+      </view>
+      <view class="flex">
+        4.<input bind:blur="popup" class="inp" type="text" placeholder="请输入快递单号" />
+        <image class="del" src="/assets/icon/删除.png"></image>
+      </view>
+
+      <view class="addnm" bindtap="addend">
+        <text>补充订单号</text>
+      </view>
+
+    </view>
+
+  </view>
+
+  <view class="down box">
+
+    <view>订单号：20220509140712345678
+      <text class="cop">复制</text>
+    </view>
+    <view>转运线路：中国 - 美国</view>
+    <view>预选渠道：普通货物</view>
+    <view>订单状态：待填写</view>
+    <view>下单时间：2022-05-09 14:07:12</view>
+
+
+  </view>
+
+  <view class="btn">
+    <button class="call">联系客服</button>
+    <button class="off" bindtap="off">支付选项</button>
+  </view>
+
+</view>

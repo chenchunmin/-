@@ -1,0 +1,61 @@
+<view class="support">
+  <text class="hao">订单号：20220509140712345678</text>
+  <view class="safe">
+    <image class="safety" src="/assets/coupon/aq.png"></image>
+    <text>保价</text>
+  </view>
+  <input type="text" placeholder="自定义物品价格，请填写真实物品价格" />
+</view>
+
+<view class="insurance">
+  <image class="warn" src="/assets/icon/warn.png"></image>
+  <view class="rem">
+    <text>国际快递由于多国调度，存在一定比例丢失的情况！</text>
+    <text>如丢失包裹，购买丢失险可获得全额赔付赔付(最高5000元)!</text>
+  </view>
+  <view class="switch">
+    <text class="dui">丢失险（保价的3%）</text>
+    <van-switch active-color="#00e266" checked="{{ checked }}" bind:change="onChange" />
+  </view>
+  <view class="line"></view>
+  <view class="swit">
+    <text class="fei">保险费：¥ 30.00</text>
+  </view>
+</view>
+
+<view class="insurance">
+  <image class="warn" src="/assets/icon/warn.png"></image>
+  <view class="rem">
+    <text>电子产品等容易被税的高客单价产品建议购买关税保险!</text>
+    <text>英国关税起征点为0.01英镑!</text>
+    <text>综合关税=货值x增值税率+(货值+运费+货值x产品税率)x20%+清关杂费。</text>
+  </view>
+  <view class="switch">
+    <text class="dui" style="margin-top: 30rpx;">关税险（保价的2%）</text>
+    <van-switch active-color="#00e266" checked="{{ checked }}" bind:change="onChange" />
+  </view>
+  <view class="line"></view>
+  <view class="swit">
+    <text class="fei">保险费：¥ 20.00</text>
+  </view>
+</view>
+
+<van-popup custom-style="width:632rpx;height:446rpx;z-index:10000" show="{{ show }}" bind:close="onClose">
+  <view class="gao">风险告知书</view>
+  <view class="keh">
+    <view>尊敬的客户:</view>
+    <view>您好，系统识别到您的订单未投保丢失保险，</view>
+    <view>丢件的概率为万分之三，未购买丢失保险发生丢</view>
+    <view>失的赔付原则为:退运费，按照实际货值赔付但不</view>
+    <view>超过运费价值且最高不超过100美元。请悉知。</view>
+  </view>
+  <view class="pop">
+    <view class="gm" bindtap="buy">购买保险</view>
+    <view class="cd">承担风险</view>
+  </view>
+</van-popup>
+
+<view class="btnn">
+  <view class="kef">联系客服</view>
+  <view class="next" bindtap="nexts">下一步</view>
+</view>

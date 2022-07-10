@@ -1,0 +1,192 @@
+.box {
+  height: 180rpx;
+  margin: 40rpx;
+  background-color: #ffffff;
+  position: relative;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px #888888;
+}
+
+.drrbox {
+  height: 166rpx;
+  border-radius: 10rpx;
+  background-color: #ffffff;
+}
+
+.box1 {
+  width: 100rpx;
+  height: 190rpx;
+}
+
+.box2 {
+  height: 190rpx;
+  width: 100%;
+}
+
+.yuan {
+  width: 70rpx;
+  margin-top: 30rpx;
+  margin-left: 14rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #ffa726;
+}
+
+.dizhiibox {
+  padding-left: 20rpx;
+  width: 500rpx;
+  font-size: 12px;
+  color: #a2a9ac;
+  word-break: break-all;
+}
+
+.lan {
+  background-color: #256f40;
+}
+
+.xiao1 {
+  width: 70%;
+  height: 70%;
+  margin: 8rpx;
+}
+
+.payDetail {
+  padding: 25rpx 35rpx;
+}
+
+.d {
+  margin: 25rpx;
+  padding: 35rpx;
+  box-shadow: 0 0 10px #888888;
+}
+
+.detail {
+  color: #101010;
+  font-size: 30rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.dddd {
+  margin-top: 20rpx;
+}
+
+.bom {
+  color: #686868;
+  display: flex;
+  transform: translate(50%);
+}
+
+.pc {
+  margin-left: 10rpx;
+  color: #ec0606;
+}
+
+.dc {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #101010;
+}
+
+
+.item {
+  padding: 5rpx;
+  justify-content: space-between;
+}
+
+.rg {
+  display: flex;
+  color: #ec0606;
+}
+
+.itemList {
+  display: flex;
+}
+
+.item {
+  display: flex;
+  padding: 10rpx;
+  margin-bottom: 15rpx;
+}
+
+.item_left {
+  display: flex;
+  align-items: center;
+}
+
+.left_img {
+  width: 52rpx;
+  height: 52rpx;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.item_right {
+  padding-left: 20rpx;
+  padding-top: 10rpx;
+  box-sizing: border-box;
+}
+
+.it_top {
+  padding-bottom: 15rpx;
+  display: flex;
+  color: #101010;
+}
+
+.rg {
+  display: flex;
+  margin-left: 20rpx;
+}
+
+.it_bom {
+  font-size: 26rpx;
+  color: #888888;
+}
+
+.bott {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+}
+
+.bot {
+  width: 496rpx;
+  height: 132rpx;
+  line-height: 40rpx;
+  background-color: rgba(255, 255, 255, 79);
+  color: rgba(16, 16, 16, 100);
+  font-size: 28rpx;
+  text-align: center;
+  border: 2rpx solid rgba(226, 226, 226, 100);
+}
+
+.gre {
+  width: 254rpx;
+  height: 132rpx;
+  line-height: 132rpx;
+  background-color: rgba(39, 79, 5, 100);
+  color: #f5e49d;
+  font-size: 28rpx;
+  text-align: center;
+  border: 2rpx solid rgba(64, 184, 80, 100);
+}
+
+.z {
+  position: relative;
+  left: -70rpx;
+  top: 14rpx;
+  width: 282rpx;
+  height: 40rpx;
+  color: rgba(16, 16, 16, 100);
+  font-size: 28rpx;
+  text-align: left;
+}
+
+.bty {
+  margin-top: 25rpx;
+}

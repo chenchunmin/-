@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/coupon/coupon",
+    "pages/my/my",
+    "pages/notify/notify",
+    "pages/address/address",
+    "pages/copy/copy",
+    "pages/nation/nation",
+    "pages/entire/entire",
+    "pages/Myaddress/Myaddress",
+    "pages/Addaddress/Addaddress",
+    "pages/Mycoupon/Mycoupon",
+    "pages/activity/activity",
+    "pages/gatPreferential/gatPreferential",
+    "pages/flow/flow",
+    "pages/detail/detail",
+    "pages/estimate/estimate",
+    "pages/Packagelist/Packagelist",
+    "pages/unpaid/unpaid",
+    "pages/support/support",
+    "pages/payment/payment",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#256f40",
+    "navigationBarTitleText": "领 头 羊",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/assets/tabbar/index.png",
+        "selectedIconPath": "/assets/tabbar/index_selected.png"
+      },
+      {
+        "pagePath": "pages/coupon/coupon",
+        "text": "优惠券",
+        "iconPath": "/assets/tabbar/coupon.png",
+        "selectedIconPath": "/assets/tabbar/coupon_selected.png"
+      },
+      {
+        "pagePath": "pages/entire/entire",
+        "text": "订单信息",
+        "iconPath": "/assets/tabbar/info.png",
+        "selectedIconPath": "/assets/tabbar/info_selected.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/assets/tabbar/my.png",
+        "selectedIconPath": "/assets/tabbar/my_selected.png"
+      }
+    ],
+    "color": "#666",
+    "selectedColor": "#256f40"
+  },
+  "sitemapLocation": "sitemap.json"
+}

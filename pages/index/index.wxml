@@ -1,0 +1,76 @@
+<!-- 轮播图  -->
+<view class="container">
+  <view class="swiper">
+    <swiper indicator-dots="true" autoplay="true" interval="1000" duration="500" circular="true">
+      <swiper-item>
+        <image mode="widthFix" src="../../assets/swiper/swiper-two.png"></image>
+      </swiper-item>
+      <swiper-item>
+        <image mode="aspectFit" src="../../assets/swiper/swiper-one.png"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+</view>
+<!-- 立即转运 -->
+<view class="transfer">
+  <view class="process">
+    <view class="name">
+      <text>中国</text>
+      <view class="airplane">
+        <image src="../../assets/icon/飞机.png"></image>
+      </view>
+      <text catchtap="select">{{select}}</text>
+    </view>
+
+    <button class="immtransfer" bindtap="immtransfer">立 即 转 运</button>
+    <van-popup show="{{ show }}" custom-style="width:620rpx;height:600rpx;z-index: 10000;">
+      <text class="canal">预选渠道</text>
+      <view class="uls">
+        <view wx:for="{{canal}}" wx:key="{{item.index}}" class="li {{flag == item.index ?'cut':''}}" data-index="{{item.index}}" catchtap="changeflag">{{item.text}}</view>
+      </view>
+      <view class="btn">
+        <view class="off" bindtap="onClose">取消</view>
+        <view class="next" bindtap="pagedown">下一步</view>
+      </view>
+    </van-popup>
+  </view>
+</view>
+<!-- 联系河马 -->
+<view class="contact">
+  <image class="left" src="../../assets/icon/客服.png"></image>
+  <text class="hippo">联系河马</text>
+  <text class="query">为您解决下单疑问?</text>
+  <image class="right" src="../../assets/icon/右箭头.png"></image>
+</view>
+<!-- 转运须知 -->
+<view class="box">
+  <view class="green" catchtap="transfer">
+    <text class="up">转运须知</text>
+    <text class="down">流程和注意事项</text>
+    <view class="icon">
+      <image class="upicon" src="../../assets/icon/右箭头.png"></image>
+    </view>
+    <image class="downicon" src="../../assets/icon/货车.png"></image>
+  </view>
+
+  <view class="orange" catchtap="estimate">
+    <text class="up">运费估算</text>
+    <text class="down">费用心中有数</text>
+    <view class="icon">
+      <image class="upicon" src="../../assets/icon/右箭头.png"></image>
+    </view>
+    <image class="downicon" src="../../assets/icon/计算器.png"></image>
+  </view>
+
+</view>
+<!-- 轻松转运 -->
+<view class="easy">轻松转运</view>
+<view class="flow">
+  <image src="../../assets/icon/流程.png"></image>
+</view>
+<!-- 复制 -->
+<view class="cope" catchtap="Copyaddress">
+  <image src="../../assets/icon/复制.png"></image>
+  <text class="shop">复制仓库地址去购物</text>
+  <text class="ress">电商平台的收货地址请填写我们</text>
+</view>

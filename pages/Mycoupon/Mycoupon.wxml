@@ -1,0 +1,33 @@
+<view class="contact" data-info="{{detailid}}" wx:for="{{unused}}" wx:key="{{item.index}}" catchtap="detailHandler">
+
+  <view class="img">
+
+    <view class="left">
+      <image src="{{item.left}}"></image>
+    </view>
+
+    <view class="righticon">
+      <image src="{{item.right}}"></image>
+      <image class="agio" src="{{item.text}}"></image>
+    </view>
+
+  </view>
+
+
+  <view class="text">
+    <text class="nm">{{item.scale}}</text>
+    <text class="money">{{item.genre}}</text>
+    <text class="full">满{{item.full}}元使用</text>
+    <text class="new">{{item.nm}}</text>
+    <view class="data">{{item.coupomStartTime}} - {{item.coupomEndTime}}</view>
+  </view>
+
+</view>
+<van-popup bind:close="onClose" show="{{ show }}" custom-style="width:620rpx;height:318rpx;">
+  <text class="change">兑换优惠券</text>
+  <input class="inp" type="text" placeholder="请输入优惠卷code，进行兑换" />
+  <view class="bt">
+    <view class="out" bindtap="onClose">取消</view>
+    <view class="next" bindtap="pagedown">确定</view>
+  </view>
+</van-popup>

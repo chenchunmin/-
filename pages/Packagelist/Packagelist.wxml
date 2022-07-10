@@ -1,0 +1,67 @@
+<view class="list">
+
+  <view class="entire">
+    <view class="laid">
+      <view class="max">全部包裹</view>
+      <view>查看您的全部包裹</view>
+    </view>
+  </view>
+
+  <view class="entire">
+    <view class="laid">
+      <view class="max">退回包裹</view>
+      <view>退回给商家或仓库处理</view>
+    </view>
+  </view>
+
+  <view class="entire">
+    <view class="laid">
+      <view class="max">异常包裹</view>
+      <view>违禁品</view>
+    </view>
+  </view>
+
+  <view class="entire">
+    <view class="laid">
+      <view class="max">入库包裹</view>
+      <view>已入库的包裹</view>
+    </view>
+  </view>
+
+</view>
+
+<view class="course">
+  <view>
+    <view class="one supply">1</view>
+    <view class="line"></view>
+    <view class="two supply">2</view>
+    <view class="li"></view>
+    <view class="three supply">3</view>
+    <view class="lin"></view>
+    <view class="fount supply">4</view>
+  </view>
+
+  <view class="text">
+
+    <view class="lib position">
+      <text>待处理</text>
+      <!-- <text>3</text> -->
+    </view>
+
+    <view class="lib orientate">
+      <text>待入仓</text>
+      <!-- <text>6</text> -->
+    </view>
+
+    <view class="lib fixed">
+      <text>待出仓</text>
+      <!-- <text>7</text> -->
+    </view>
+
+    <view class="lib go">
+      <text>待收货</text>
+      <!-- <text>8</text> -->
+    </view>
+
+  </view>
+</view>

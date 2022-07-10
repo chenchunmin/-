@@ -1,0 +1,212 @@
+.support {
+  width: 694rpx;
+  height: 296rpx;
+  line-height: 40rpx;
+  opacity: 0.85;
+  background-color: rgba(255, 255, 255, 79);
+  color: rgba(16, 16, 16, 100);
+  font-size: 28rpx;
+  text-align: center;
+  box-shadow: 0rpx 4rpx 20rpx 0rpx rgba(0, 0, 0, 0.4);
+  font-family: Arial;
+  border: 2rpx solid rgba(255, 255, 255, 100);
+  margin: 30rpx auto;
+}
+
+.hao {
+  position: relative;
+  left: -60rpx;
+  top: 35rpx;
+  width: 496rpx;
+  height: 44rpx;
+  color: rgba(16, 16, 16, 100);
+  font-size: 32rpx;
+}
+
+.safety {
+  position: relative;
+  left: -250rpx;
+  top: 50rpx;
+  width: 52rpx;
+  height: 52rpx;
+}
+
+.safe text {
+  position: relative;
+  left: -225rpx;
+  top: 35rpx;
+  width: 72rpx;
+  height: 50rpx;
+  color: rgba(16, 16, 16, 100);
+  font-size: 36rpx;
+  font-weight: bold;
+}
+
+input {
+  position: relative;
+  left: 85rpx;
+  top: 60rpx;
+  width: 568rpx;
+  height: 68rpx;
+  border-radius: 22rpx;
+  color: rgba(136, 136, 136, 100);
+  font-size: 28rpx;
+  text-align: left;
+  font-family: Microsoft Yahei;
+  border: 2rpx solid rgba(187, 187, 187, 100);
+  padding-left: 10rpx;
+}
+
+.insurance {
+  width: 694rpx;
+  height: 296rpx;
+  opacity: 0.85;
+  background-color: rgba(255, 255, 255, 79);
+  color: rgba(16, 16, 16, 100);
+  font-size: 28rpx;
+  text-align: center;
+  box-shadow: 0rpx 4rpx 20rpx 0rpx rgba(0, 0, 0, 0.4);
+  font-family: Arial;
+  border: 2rpx solid rgba(255, 255, 255, 100);
+  margin: 30rpx auto;
+}
+
+.fee {
+  width: 694rpx;
+  height: 296rpx;
+  opacity: 0.85;
+  background-color: rgba(255, 255, 255, 79);
+  color: rgba(16, 16, 16, 100);
+  font-size: 28rpx;
+  text-align: center;
+  box-shadow: 0rpx 4rpx 20rpx 0rpx rgba(0, 0, 0, 0.4);
+  font-family: Arial;
+  border: 2rpx solid rgba(255, 255, 255, 100);
+  margin: 30rpx auto;
+}
+
+.warn {
+  position: relative;
+  left: -290rpx;
+  top: 30rpx;
+  width: 28rpx;
+  height: 28rpx;
+}
+
+.rem {
+  position: relative;
+  left: 80rpx;
+  top: -10rpx;
+  width: 528rpx;
+  height: 66rpx;
+  color: rgba(236, 6, 6, 100);
+  font-size: 20rpx;
+  text-align: left;
+}
+
+.dui {
+  position: relative;
+  left: 10rpx;
+  top: 10rpx;
+  width: 268rpx;
+  height: 40rpx;
+  color: rgba(16, 16, 16, 100);
+  font-size: 28rpx;
+}
+
+.switch {
+  width: 650rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.line {
+  margin-top: 30rpx;
+  border-bottom: 2rpx solid #ccc;
+}
+
+.swit {
+  position: relative;
+  left: -230rpx;
+  margin-top: 30rpx;
+}
+
+.fei {
+  color: rgba(16, 16, 16, 100);
+  font-size: 28rpx;
+}
+
+.kef {
+  width: 376rpx;
+  height: 114rpx;
+  line-height: 114rpx;
+  background-color: #fc9d62;
+  text-align: center;
+  color: #fff;
+}
+
+.next {
+  width: 376rpx;
+  height: 114rpx;
+  line-height: 114rpx;
+  background-color: #318f53;
+  text-align: center;
+  color: #fff;
+}
+
+.btnn {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+}
+
+.gao {
+  position: relative;
+  left: 220rpx;
+  top: 20rpx;
+  width: 180rpx;
+  height: 50rpx;
+  color: rgba(0, 0, 0, 1);
+  font-size: 36rpx;
+  text-align: center;
+}
+
+.keh {
+  position: relative;
+  left: 20rpx;
+  width: 616rpx;
+  height: 240rpx;
+  color: rgba(16, 16, 16, 100);
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+
+.keh view {
+  margin-bottom: 20rpx;
+}
+
+.gm {
+  width: 236rpx;
+  height: 66rpx;
+  line-height: 66rpx;
+  background-color: #274f05;
+  text-align: center;
+  color: #ffd300;
+  margin-right: 20rpx;
+}
+
+.cd {
+  width: 236rpx;
+  height: 66rpx;
+  line-height: 66rpx;
+  background-color: #fc9d62;
+  text-align: center;
+  color: #fff;
+}
+
+.pop {
+  display: flex;
+  position: relative;
+  left: 80rpx;
+  top: 50rpx;
+}

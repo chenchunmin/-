@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "van-popup": "@vant/weapp/popup/index",
+    "van-toast": "@vant/weapp/toast/index"
+  },
+  "navigationBarBackgroundColor": "#e7691d",
+  "navigationBarTitleText": "我的优惠价"
+}

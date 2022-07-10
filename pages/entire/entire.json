@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index",
+    "orderitem":"../../component/order/order"
+  },
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTitleText": "订单列表",
+  "navigationBarTextStyle": "black"
+}

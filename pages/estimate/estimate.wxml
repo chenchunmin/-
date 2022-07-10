@@ -1,0 +1,59 @@
+<view class="estimate">
+
+  <view class="img">
+    <image src="/assets/coupon/yf.png"></image>
+  </view>
+
+  <view class="count">
+    <text class="mold">预估运费</text>
+
+    <view class="box">
+
+      <view class="skyblue" bindtap="skyblue">
+        <view class="text">转运渠道</view>
+        <view class="text" wx:for="{{newarr}}">{{item.text}}</view>
+      </view>
+
+      <view class="green" bindtap="green">
+        <view class="text">预估重量</view>
+        <view class="text">{{heft}}KG</view>
+      </view>
+
+      <view class="violet" bindtap="green">
+        <view class="text">预估体积</view>
+        <view class="text">请输入长宽高</view>
+      </view>
+
+      <view class="smalt">
+        <view class="text">预估运费（实际结果以订单为准）</view>
+        <view class="text">¥ {{money}}</view>
+      </view>
+
+    </view>
+
+  </view>
+
+  <van-popup bind:close="onClose" show="{{ show }}" custom-style="width:620rpx;height:450rpx;z-index: 10000;">
+
+    <view class="plain" wx:for="{{canal}}" wx:key="{{item.index}}">
+      <text>{{item.text}}</text>
+      <van-radio-group value="{{ radio }}" bind:change="onChange">
+        <van-radio name="{{item.name}}"></van-radio>
+      </van-radio-group>
+    </view>
+
+  </van-popup>
+
+  <van-popup show="{{ flse }}" custom-style="width:620rpx;height:500rpx;z-index: 10000;">
+    <text class="please">请输入重量与长宽高</text>
+    <image bindtap="out" class="callOff" src="/assets/coupon/取消.png"></image>
+    <view class="inp">
+      <text>重量(KG)</text><input bindinput="bindkg" type="text" value="{{inputvalue}}" />
+      <text>长(CM)</text><input type="text" value="" />
+      <text> 宽(CM)</text><input type="text" value="" />
+      <text>高(CM)</text><input type="text" value="" />
+      <view class="yes" bindtap="total">确定</view>
+    </view>
+  </van-popup>
+
+</view>

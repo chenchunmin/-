@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "van-empty": "@vant/weapp/empty/index",
+    "van-button": "@vant/weapp/button/index",
+    "van-checkbox": "@vant/weapp/checkbox/index",
+    "van-checkbox-group": "@vant/weapp/checkbox-group/index"
+  },
+  "navigationBarBackgroundColor": "#e7691d",
+  "navigationBarTitleText": "我的地址",
+  "navigationBarTextStyle": "white"
+}

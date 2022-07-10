@@ -1,0 +1,13 @@
+<view class="coupon"></view>
+
+<view class="imagex" catchtap="coupon">
+  <image src="../../assets/coupon/图片@1x.png"></image>
+</view>
+
+<view class="imagey" catchtap="coupon">
+  <image src="../../assets/coupon/图片 Copy@1x.png"></image>
+</view>
+
+<view class="imagev" catchtap="coupon">
+  <image src="../../assets/coupon/图片 Copy 2@1x.png"></image>
+</view>

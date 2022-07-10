@@ -1,0 +1,41 @@
+.coupon {
+  position: relative;
+  left: 0rpx;
+  top: 0rpx;
+  width: 750rpx;
+  height: 400rpx;
+  background-color: rgba(231, 105, 29, 100);
+}
+
+.imagex {
+  position: relative;
+  left: 43rpx;
+  top: 60rpx;
+  width: 666rpx;
+  height: 240rpx;
+  border-radius: 12px;
+}
+
+.imagey {
+  position: relative;
+  left: 43rpx;
+  top: 110rpx;
+  width: 666rpx;
+  height: 240rpx;
+  border-radius: 12px;
+}
+
+.imagev {
+  position: relative;
+  left: 43rpx;
+  top: 170rpx;
+  width: 666rpx;
+  height: 240rpx;
+  border-radius: 12px;
+  margin-bottom: 50rpx;
+}
+
+image {
+  width: 100%;
+  height: 100%;
+}

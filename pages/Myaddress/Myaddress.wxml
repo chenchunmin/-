@@ -1,0 +1,20 @@
+<!-- <van-empty description="您还没添加地址喔">
+  <button class="bottom-button" catchtap="add">添加地址</button>
+</van-empty> -->
+<view>
+  <view class="info" wx:for="{{addData}}" wx:key="item.id" >
+    <view bindtap="voluation" data-id="{{item.id}}" >
+      <van-checkbox checked-color="#ffa726" value="{{ checked }}" bind:change="onChange"></van-checkbox>
+      <view class="text">
+        <text>{{item.nm}}</text>
+        <text>{{item.phone}}</text>
+      </view>
+      <text class="address">{{item.ress}}</text>
+      <view class="img">
+        <image src="/assets/icon/编辑.png"></image>
+        <image src="/assets/icon/删除.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+<button catchtap="address" class="new">新建地址</button>

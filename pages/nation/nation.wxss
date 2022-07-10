@@ -1,0 +1,9 @@
+.nation {
+  width: 670rpx;
+  margin: auto;
+  border-bottom: 1px solid rgba(247, 89, 171, 100);
+}
+
+.van-search__content {
+  background-color: #ffffff !important;
+}

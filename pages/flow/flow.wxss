@@ -1,0 +1,37 @@
+.content {
+  width: 694rpx;
+  height: 2500rpx;
+  margin: auto;
+  color: rgba(16, 16, 16, 100);
+}
+
+.content .favour {
+  position: absolute;
+  left: 30rpx;
+  top: 30rpx;
+  color: rgba(0, 0, 0, 1);
+  font-size: 50rpx;
+  font-weight: bold;
+}
+
+.content .text {
+  margin-top: 110rpx;
+  font-size: 38rpx;
+}
+
+.content .time {
+  color: #919394;
+  position: relative;
+  left: 380rpx;
+  top: 60rpx;
+}
+
+.content .read {
+  position: relative;
+  top: 200rpx;
+  width: 374rpx;
+  height: 82rpx;
+  background-color: #256f40;
+  color: #ffffff;
+  margin-bottom: 50rpx;
+}

@@ -1,0 +1,108 @@
+.orderData {
+  position: relative;
+  left: 28rpx;
+  top: 30rpx;
+  width: 694rpx;
+  height: 326rpx;
+  background-color: rgba(255, 255, 255, 79);
+  box-shadow: 0rpx 4rpx 15rpx 0rpx rgba(0, 0, 0, 0.4);
+  border: 2rpx solid rgba(255, 255, 255, 100);
+  margin: 20rpx 0;
+  margin-bottom: 50rpx;
+}
+
+.text {
+  position: relative;
+  left: 40rpx;
+  top: 20rpx;
+  width: 434rpx;
+  height: 40rpx;
+  color: rgba(16, 16, 16, 100);
+  font-size: 28rpx;
+}
+
+.copy {
+  position: relative;
+  left: 500rpx;
+  top: -15rpx;
+  width: 64rpx;
+  height: 24rpx;
+  line-height: 24rpx;
+  border-radius: 8rpx;
+  background-color: rgba(217, 241, 221, 100);
+  color: rgba(64, 184, 80, 100);
+  font-size: 20rpx;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  border: 2rpx solid rgba(217, 241, 221, 100);
+}
+
+.off {
+  position: relative;
+  left: 150rpx;
+  top: 60rpx;
+  width: 72rpx;
+  height: 50rpx;
+  color: rgba(16, 16, 16, 100);
+  font-size: 36rpx;
+}
+
+.airplane {
+  position: relative;
+  left: 300rpx;
+  top: 15rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+
+image {
+  width: 100%;
+  height: 100%;
+}
+
+.finish {
+  position: relative;
+  left: 460rpx;
+  top: -40rpx;
+  width: 72rpx;
+  height: 50rpx;
+  color: rgba(16, 16, 16, 100);
+  font-size: 36rpx;
+}
+
+.state {
+  position: relative;
+  left: 215rpx;
+  top: 15rpx;
+  width: 84rpx;
+  height: 40rpx;
+  color: #256f40;
+  font-size: 28rpx;
+}
+
+.buy {
+  position: relative;
+  top: 30rpx;
+  left: 15rpx;
+  width: 650rpx;
+  float: left;
+}
+
+.details {
+  float: right;
+  border-radius: 8rpx;
+  background-color: #256f40;
+  color: #ffffff;
+  font-size: 26rpx;
+  margin-left: 23rpx;
+}
+
+.pay {
+  float: right;
+  border-radius: 8rpx;
+  font-size: 26rpx;
+  margin-left: 23rpx;
+  background-color: rgba(255, 255, 255, 100);
+  color: rgba(64, 184, 80, 100);
+  border: 2rpx solid rgba(64, 184, 80, 100);
+}

@@ -1,0 +1,115 @@
+<view class="content">
+
+  <view class="up box">
+
+    <view class="depot info">
+      <view class="img">
+        <image src="/assets/icon/地址.png"></image>
+      </view>
+      <view class="text">
+        <text>新希望仓库</text>
+        <text>18664673990</text>
+        <text class="copy">复制</text>
+      </view>
+      <text class="address">深圳市龙华区龙华街道工业路壹城环智中心C座2607室</text>
+
+
+
+
+    </view>
+
+    <view class="myaddress info">
+
+      <view class="myimg">
+        <image src="/assets/icon/fdc.png"></image>
+      </view>
+
+      <view class="mytext">
+        <text>YY ZZZ</text>
+        <text>18664673990</text>
+      </view>
+
+      <view class="mysaddress">MEGASYSTEMS INC 799 E DRAGRAM SUITE 5ATUCSON, AZ 85705 USA</view>
+
+    </view>
+
+  </view>
+
+  <view class="center box">
+
+    <view class="warn">
+      <image class="wricon" src="/assets/icon/warn.png"></image>
+      <text class="wr">快递全部到齐点击确认打包后，订单不可修改</text>
+    </view>
+
+    <view class="number">
+      <image class="xicon" src="/assets/icon/xing.png"></image>
+      <view class="size">快递个数</view>
+      <input class="min" type="text" placeholder="请输入（输入后弹出快递单号位置）" />
+    </view>
+
+    <input class="max" type="text" placeholder="备注信息，例如：去掉包装盒等" />
+
+    <view class="add">
+      <view class="flex">
+        1.<input bind:blur="popup" class="inp" type="text" placeholder="请输入快递单号" />
+        <image class="del" src="/assets/icon/删除.png"></image>
+      </view>
+      <view class="flex">
+        2.<input bind:blur="popup" class="inp" type="text" placeholder="请输入快递单号" />
+        <image class="del" src="/assets/icon/删除.png"></image>
+      </view>
+      <view class="flex">
+        3.<input bind:blur="popup" class="inp" type="text" placeholder="请输入快递单号" />
+        <image class="del" src="/assets/icon/删除.png"></image>
+      </view>
+      <view class="flex">
+        4.<input bind:blur="popup" class="inp" type="text" placeholder="请输入快递单号" />
+        <image class="del" src="/assets/icon/删除.png"></image>
+      </view>
+
+      <view class="addnm" bindtap="addend">
+        <text>补充订单号</text>
+      </view>
+
+    </view>
+
+  </view>
+
+  <view class="down box">
+
+    <view>订单号：20220509140712345678
+      <text class="cop">复制</text>
+    </view>
+    <view>转运线路：中国 - 美国</view>
+    <view>预选渠道：普通货物</view>
+    <view>订单状态：待填写</view>
+    <view>下单时间：2022-05-09 14:07:12</view>
+
+
+  </view>
+
+  <view class="btn">
+    <button class="call">联系客服</button>
+    <button class="off" bindtap="off">取消订单</button>
+  </view>
+
+  <van-popup show="{{ show }}" custom-style="width:560rpx;height:292rpx; z-index:10000">
+    <view class="if">是否增加快递单号？</view>
+    <view class="con">增加快递单号后，发往转运中心的快递个数+1。是否要继续？</view>
+    <view class="bt">
+      <view class="out" bindtap="onClose">取消</view>
+      <view class="next" bindtap="pagedown">确定</view>
+    </view>
+  </van-popup>
+
+  <van-popup show="{{ flag }}" custom-style="width:560rpx;height:292rpx; z-index:10000">
+    <view class="if">请确认快递单号是否无误</view>
+    <view class="con">请确认快递单号【test12346】是否无误，一旦提交，不可修改。</view>
+    <view class="bt">
+      <view class="out" bindtap="onClose">取消</view>
+      <view class="next" bindtap="pagedown">确定</view>
+    </view>
+  </van-popup>
+
+</view>

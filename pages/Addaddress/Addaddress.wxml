@@ -1,0 +1,17 @@
+<van-cell-group>
+
+  <van-field bindtap="regeinput" error-message="{{nameError}}" bindinput="bindinput" value="{{ name }}" label="Name：" placeholder="Please fill in the recipient‘s name" />
+  <van-field bindinput="bindphone" error-message="{{phoneError}}" value="{{ phone }}" label="Phone：" placeholder="Please fill in the recipient‘s phone" />
+  <van-field bindinput="bindress" error-message="{{ressError}}" value="{{ ress }}" label="Address：" placeholder="Please fill in the address" />
+  <van-field bindinput="bindcity" error-message="{{cityError}}" value="{{ city }}" label="City：" placeholder="Please fill in the city" />
+  <van-field value="{{ postcode }}" label="PostCode：" placeholder="Please fill in the postcode" />
+  <van-field bindinput="bindcountry" error-message="{{countryError}}" value="{{ country }}" label="Country：" placeholder="Please select a country" />
+
+</van-cell-group>
+
+<view class="border"></view>
+<view class="switch">
+  <text>设为默认</text>
+  <van-switch checked="{{ checked }}" bind:change="onChange" />
+</view>
+<button class="bottom-button" catchtap="add">添加地址</button>

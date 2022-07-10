@@ -1,0 +1,33 @@
+<view class="copy">
+  <view class="ress">
+    <image src="../../assets/icon/地址.png"></image>
+  </view>
+  <view class="depot">仓库地址</view>
+  <view class="warehouse">
+    <view>{{address.person}}</view>
+    <view>{{address.phone}}</view>
+    <view class="site">{{address.over}}</view>
+  </view>
+  <view class="copyaddress" catchtap="copyaddress">复制</view>
+
+</view>
+
+<view class="address">
+  <text class="target">目标国收件信息</text>
+  <view class="sigh">
+    <image src="../../assets/icon/感叹号.png"></image>
+  </view>
+  <text class="english">请用英文填写</text>
+  <view class="myaddress" catchtap="opt">选择地址</view>
+  <view class="page">
+    <van-cell-group class="overlayInput">
+      <van-field bindtap="regeinput" error-message="{{nameError}}" bindinput="bindinput" value="{{ echo.nm }}" label="Name：" placeholder="Please fill in the recipient‘s name" />
+      <van-field bindinput="bindphone" error-message="{{phoneError}}" value="{{ echo.phone }}" label="Phone：" placeholder="Please fill in the recipient‘s phone" />
+      <van-field bindinput="bindress" error-message="{{ressError}}" value="{{ echo.ress }}" label="Address：" placeholder="Please fill in the address" />
+      <van-field bindinput="bindcity" error-message="{{cityError}}" value="{{ echo.City }}" label="City：" placeholder="Please fill in the city" />
+      <van-field value="{{ echo.PostCode }}" label="PostCode：" placeholder="Please fill in the postcode" />
+    </van-cell-group>
+  </view>
+</view>
+
+<button class="luck" disabled='{{disabled}}' type="primary" bindtap="send">立即转运</button>
